@@ -1,15 +1,3 @@
-######################################
-
-vi -c ":colorscheme evening" /home/pszczepanski/Desktop/FileToTransfer.txt
-
-echo "Transferred file in the attachment" | mailx -s "File Transfer" -a /home/pszczepanski/Desktop/FileToTransfer.txt piotr.szczepanski@ipsoft.com
-
-######################################
-
-
-
-
-
 import re
 
 output = """/Global_NOP/IL_Shapers/4mb_ADSL_No_Shaping/DUMMY-PacketShaper-PS01/135-10004197# measure dump class all by var 8h bytes avg-bps
